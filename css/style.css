@@ -217,6 +217,8 @@ body {
   position: relative;
   max-width: 552px;
   height: 614px;
+  background-color: #333; /* Debug background */
+  border: 2px solid #FFC94D; /* Debug border */
 }
 
 .about__image img {
@@ -224,6 +226,7 @@ body {
   max-width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block; /* Ensure block display */
 }
 
 .about__title {
