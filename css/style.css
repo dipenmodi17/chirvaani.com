@@ -490,8 +490,19 @@ body {
 }
 
 .footer__logo {
-  height: 3rem;
+  color: var(--color-accent);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
   margin-bottom: 1rem;
+}
+
+.footer__logo:hover {
+  color: var(--color-accent);
+  text-decoration: none;
 }
 
 .footer__brand {
@@ -499,16 +510,19 @@ body {
   line-height: 1.6;
   color: #ccc;
   max-width: 600px;
+  text-align: center;
 }
 
 .footer__address {
   font-size: 0.85rem;
   color: #999;
   line-height: 1.5;
+  text-align: center;
 }
 
 .footer__links {
   margin-top: 1rem;
+  text-align: center;
 }
 
 .footer__link {
