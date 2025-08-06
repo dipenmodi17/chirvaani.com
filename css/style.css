@@ -477,50 +477,55 @@ body {
 /* ****************FOOTER**************** */
 
 .footer {
-  background: var(--color-section);
-  color: #ccc;
-  padding: var(--space-md) 0;
-  border-top: 1px solid var(--color-border);
+  background-color: #000;
+  padding: 3rem 0;
   text-align: center;
-  font-size: 1rem;
 }
 
 .footer__container {
-  padding-top: 3.25rem;
-  padding-bottom: 3.25rem;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.footer__policy {
-  color: #888;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-
-.footer__policy:hover {
-  color: var(--color-accent);
+  gap: 1.5rem;
 }
 
 .footer__logo {
-  color: var(--color-accent);
-  font-family: var(--font-heading);
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-decoration: none;
-  margin: 0 1rem;
+  height: 3rem;
+  margin-bottom: 1rem;
 }
 
+.footer__brand {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #ccc;
+  max-width: 600px;
+}
+
+.footer__address {
+  font-size: 0.85rem;
+  color: #999;
+  line-height: 1.5;
+}
+
+.footer__links {
+  margin-top: 1rem;
+}
+
+.footer__link {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.3s ease;
+}
+
+.footer__link:hover {
+  color: var(--color-accent);
+}
+
+/* Remove old footer styles */
+.footer__policy,
 .footer__copyright {
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  justify-self: end;
-  font-size: 0.875rem;
-  padding-right: 1rem;
+  display: none;
 }
 
 /* ****************ABOUT PAGE**************** */
@@ -1631,4 +1636,60 @@ main.page > section {
 /* Headings always saffron */
 .title, .main__title, .about__title, .services__title, .item-services__title {
   color: var(--color-accent) !important;
+}
+
+/* ************LEGAL PAGES************ */
+
+.main_legal {
+  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+}
+
+.legal {
+  padding: 5rem 0;
+}
+
+.legal__container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.legal__content {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 3rem;
+  border-radius: var(--radius);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.legal__content h2 {
+  color: var(--color-accent);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.legal__content h3 {
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.legal__content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.legal__content ul {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.legal__content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.legal__content strong {
+  color: var(--color-accent);
 }
