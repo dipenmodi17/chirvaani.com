@@ -13,14 +13,14 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,500,600,700&display=swap');
 
 :root {
-  --color-bg: #fff;
-  --color-section: #f8f9fa;
-  --color-card: #fff;
-  --color-text: #222;
+  --color-bg: #020617;
+  --color-section: #020617;
+  --color-card: #020617;
+  --color-text: #e5e7eb;
   --color-accent: #FFC94D;
   --color-accent-dark: #e6b200;
-  --color-border: #ececec;
-  --color-shadow: rgba(0,0,0,0.07);
+  --color-border: #1f2937;
+  --color-shadow: rgba(15,23,42,0.7);
   --font-heading: 'Montserrat', Arial, sans-serif;
   --font-body: 'Inter', Arial, sans-serif;
   --radius: 1.25rem;
@@ -45,7 +45,7 @@
 body {
   font-family: var(--font-body);
   font-size: 1.1rem;
-  color: #fff;
+  color: var(--color-text);
   background: var(--color-bg);
   margin: 0;
   padding: 0;
@@ -173,7 +173,7 @@ body {
 /* *****************HOME**************** */
 
 .main {
-  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
   min-height: 100vh;
 }
 
@@ -218,13 +218,13 @@ body {
 }
 
 .outro_home {
-  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
 }
 
 /* ************ABOUT**************** */
 
 .main_about {
-  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
 }
 
 .about__container {
@@ -320,13 +320,13 @@ body {
 }
 
 .outro_about {
-  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
 }
 
 /* **************SERVICES**************** */
 
 .main_services {
-  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
 }
 
 .services {
@@ -394,7 +394,7 @@ body {
 }
 
 .outro_services {
-  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
 }
 
 /* ************TESTIMONIAL**************** */
@@ -607,7 +607,7 @@ body {
 /* ****************CONTACT PAGE****************/
 
 .main_contact {
-  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
 }
 
 .contact__container {
@@ -1655,7 +1655,7 @@ main.page > section {
 /* ************LEGAL PAGES************ */
 
 .main_legal {
-  background: #000 url("img/services/background.jpg") center / cover no-repeat;
+  background: radial-gradient(circle at top, #111827 0, #020617 55%, #000 100%);
 }
 
 .legal {
